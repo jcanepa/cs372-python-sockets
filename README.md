@@ -1,17 +1,16 @@
 # Sockets and HTTP in Python
 
-## Using a socket to GET a file
-This bare-bones socket program contacts a remote web server via HTTP GET request using the Python Socket API.
+This project contains three programs involving sending and recieving HTTP GET requests and responses using client-server architecture using sockets.
 
-To run:
+Using a socket to GET a file, to run:
 ```
 python3 connect_socket.py
 ```
-
+Using a socket to GET a **larger** file, to run:
 ```
 python3 connect_socket_large.py
 ```
-
+The world’s simplest HTTP server, to run:
 ```
 python3 http_server.py
 ```
