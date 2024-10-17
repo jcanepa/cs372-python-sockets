@@ -28,7 +28,7 @@ response = b""
 # loop as long as client is recieving data from server
 while True:
     # read a chunk of bytes from server through socket
-    chunk = client_socket.recv(4096)
+    chunk = client_socket.recv(16384)
     if not chunk: # no data to read
         break
     # assemble payload
